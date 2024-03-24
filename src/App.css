@@ -1,0 +1,14 @@
+:root {
+  --bg-clr: #fff;
+  --font-clr: #000;
+}
+
+[data-theme="dark"] {
+  --bg-clr: #000;
+  --font-clr: #fff;
+}
+
+body {
+  background-color: var(--bg-clr);
+  color: var(--font-clr);
+}
